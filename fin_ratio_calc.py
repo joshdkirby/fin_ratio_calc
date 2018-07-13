@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-# Input ticker as argument
+# Input stock ticker as argument
 ticker = sys.argv[1]
 
 # Read in nasdaq page for stock using BeautifulSoup
